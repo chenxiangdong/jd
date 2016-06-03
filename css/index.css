@@ -512,6 +512,62 @@ html {
   font-size: 0.12rem;
 }
 
+.xintiao {
+  padding-bottom: 10px;
+  background: #edede8;
+  width: 100%;
+  height: 2.67rem;
+  margin-top: 30px;
+}
+
+.xintiao .xt_t {
+  padding: 5px 10px;
+  width: 100%;
+  height: 0.46rem;
+  background: #fff;
+}
+
+.xintiao .xt_t div {
+  width: 0.6rem;
+  height: 0.15rem;
+  background: url(../img/zi.png);
+  background-position: 0 -1.05rem;
+  background-size: 1.2rem 4.45rem;
+}
+
+.xintiao #xt_1, .xintiao #xt_2, .xintiao #xt_3 {
+  border-right: 1px solid #edede8;
+  padding: 0;
+  height: 1.95rem;
+  background: #fff;
+}
+
+.xintiao #xt_1 img, .xintiao #xt_2 img, .xintiao #xt_3 img {
+  width: 1rem;
+}
+
+.xintiao #xt_1 div, .xintiao #xt_2 div, .xintiao #xt_3 div {
+  width: 0.86rem;
+  height: 0.3rem;
+  padding: 0.03rem 0.05rem;
+  font-size: 12px;
+  color: #333;
+  line-height: 0.12rem;
+  font-family: Helvetica,STHeiti STXihei,Microsoft JhengHei,Microsoft YaHei,Arial;
+}
+
+.xintiao #xt_1 span, .xintiao #xt_2 span, .xintiao #xt_3 span {
+  font-size: 0.14rem;
+  color: #f74f68;
+  padding-left: 0.05rem;
+}
+
+.xintiao #xt_1 p, .xintiao #xt_2 p, .xintiao #xt_3 p {
+  padding-left: 0.05rem;
+  font-size: 0.12rem;
+  color: #a5a6a8;
+}
+
 .suib {
   width: 100%;
   height: 0.41rem;
@@ -521,7 +577,7 @@ html {
   font-size: 0.14rem;
   text-align: center;
   line-height: 0.41rem;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .xia {
