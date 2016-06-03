@@ -9,6 +9,10 @@ html {
   background: #E8E8ED;
 }
 
+body {
+  width: 100%;
+}
+
 @media screen and (width: 320px) {
   html {
     font-size: 100px;
@@ -54,6 +58,7 @@ html {
 .toubu {
   width: 100%;
   height: 44px;
+  box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
@@ -85,10 +90,8 @@ html {
 .toubu .jd {
   position: absolute;
   top: 7px;
-  margin: auto;
-  left: 0;
-  right: 0;
-  width: 71.8%;
+  left: 13%;
+  width: 71.7%;
 }
 
 .toubu .jd::before {
@@ -127,10 +130,9 @@ html {
 .toubu img {
   width: 30px;
   height: 30px;
-  margin: 7px;
   position: absolute;
-  right: 0;
-  top: 0;
+  left: 87%;
+  top: 0.07rem;
 }
 
 .lunbo {
@@ -254,7 +256,7 @@ html {
 }
 
 .huodong .zhibo .zhibo_h {
-  width: 2.42rem;
+  width: 2.41rem;
   height: 0.36rem;
 }
 
@@ -486,7 +488,7 @@ html {
   height: 0.17rem;
   position: absolute;
   top: 0.15rem;
-  left: 0.2rem;
+  left: 0.15rem;
   color: #333;
   font-size: 0.16rem;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -499,7 +501,7 @@ html {
   height: 0.12rem;
   position: absolute;
   top: 0.35rem;
-  left: 0.2rem;
+  left: 0.15rem;
 }
 
 .meiri .mr_tu #mr_2 div:nth-child(3) {
@@ -688,6 +690,7 @@ html {
 }
 
 .pinpai .pp_logo div {
+  overflow: hidden;
   height: 100%;
   margin: 0 auto;
   text-align: center;
@@ -750,6 +753,7 @@ html {
   bottom: -0.1rem;
   left: 0;
   list-style: none;
+  box-sizing: border-box;
 }
 
 .dianji li {
@@ -760,6 +764,7 @@ html {
   float: left;
   line-height: 0.6rem;
   position: relative;
+  box-sizing: border-box;
 }
 
 .dianji li a {
