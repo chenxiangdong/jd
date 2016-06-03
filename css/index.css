@@ -568,6 +568,143 @@ html {
   color: #a5a6a8;
 }
 
+.pinpai {
+  width: 100%;
+  height: 2.83rem;
+}
+
+.pinpai .temai {
+  width: 100%;
+  height: 0.4rem;
+  background: #fff;
+}
+
+.pinpai .temai #tm_1 {
+  position: relative;
+}
+
+.pinpai .temai #tm_1 p {
+  position: absolute;
+  top: 0.08rem;
+  left: 0.05rem;
+  width: 0.6rem;
+  height: 0.15rem;
+  background: url(../img/zi.png);
+  background-position: 0 -0.3rem;
+  background-size: 1.2rem 4.45rem;
+}
+
+.pinpai .temai #tm_2 img {
+  width: 0.5rem;
+}
+
+.pinpai .temai #tm_2 span {
+  font-size: 0.12rem;
+  color: #7f7f83;
+}
+
+.pinpai .pp_tu #pt_1 {
+  height: 1.75rem;
+  background: url(../img/xie.png);
+  background-size: 2.66rem 1.75rem;
+  background-position: -0.3rem 0;
+}
+
+.pinpai .pp_tu #pt_1::before {
+  content: "";
+  display: block;
+  width: 1.72rem;
+  height: 1.28rem;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 247, 255, 0.8);
+}
+
+.pinpai .pp_tu #pt_1 div {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #333;
+  width: 1.6rem;
+  height: 1.16rem;
+  text-align: center;
+}
+
+.pinpai .pp_tu #pt_1 div img {
+  width: 0.45rem;
+  margin-top: 0.15rem;
+}
+
+.pinpai .pp_tu #pt_1 div p {
+  font-size: 0.12rem;
+  color: #333;
+}
+
+.pinpai .pp_tu #pt_1 div span {
+  padding: 0.05rem 0.07rem;
+  color: #fff;
+  background: #000;
+  font-size: 0.12rem;
+}
+
+.pinpai .pp_tu #pt_2 {
+  height: 1.75rem;
+  overflow: hidden;
+  padding: 0 5px;
+}
+
+.pinpai .pp_tu #pt_2 div {
+  width: 100%;
+  height: 1rem;
+  border-bottom: 1px solid #edede8;
+}
+
+.pinpai .pp_tu #pt_2 div p:nth-child(1) {
+  font-size: 0.12rem;
+  color: #333;
+  margin-bottom: 0;
+}
+
+.pinpai .pp_tu #pt_2 div p {
+  font-size: 0.12rem;
+  color: #999;
+  margin-bottom: 0;
+}
+
+.pinpai .pp_tu #pt_2 div img {
+  width: 1.07rem;
+}
+
+.pinpai .pp_logo {
+  width: 100%;
+  height: 0.68rem;
+}
+
+.pinpai .pp_logo div {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pinpai .pp_logo div img {
+  width: 0.6rem;
+  height: 0.4rem;
+}
+
+.pinpai .pp_logo div p {
+  color: #f03849;
+  font-size: 0.12rem;
+  width: 1rem;
+  height: 0.2rem;
+}
+
 .suib {
   width: 100%;
   height: 0.41rem;
